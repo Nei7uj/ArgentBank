@@ -4,14 +4,14 @@ import { Provider } from 'react-redux';
 import App from './App.jsx';
 import { store } from './store.jsx';
 import "./main.css";
-import "./pages/sign-in.css";
-import "./components/features.css";
-import "./components/footer.css";
-import "./components/header.css";
-import "./components/hero.css";
-import "./components/user-content.css";
-import "./components/sign-in-content.css";
-import "./pages/user.css";
+import "./pages/SignIn/sign-in.css";
+import "./components/Features/features.css";
+import "./components/Footer/footer.css";
+import "./components/Header/header.css";
+import "./components/Hero/hero.css";
+import "./components/UserContent/user-content.css";
+import "./components/SignInContent/sign-in-content.css";
+import "./pages/User/user.css";
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
