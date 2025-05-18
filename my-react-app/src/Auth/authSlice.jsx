@@ -5,7 +5,7 @@ export const fetchUserProfile = createAsyncThunk(
   async (_, { getState }) => {
     const token = getState().auth.token;
     const response = await fetch('http://localhost:3001/api/v1/user/profile', {
-      method: 'POST',
+      method: 'GET',
       headers: {
         'Authorization': `Bearer ${token}`,
         'Content-Type': 'application/json',
