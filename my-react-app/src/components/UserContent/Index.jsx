@@ -13,6 +13,7 @@ const UserContent = () => {
   const [userName, setUserName] = useState(user?.userName || ''); 
 
   const handleEditClick = () => {
+     setUserName(user?.userName || '');
     setIsEditing(true);
   };
 
@@ -57,7 +58,7 @@ const UserContent = () => {
         <h2>Edit user info</h2> 
         <form className="edit-form" onSubmit={handleSave}>
           <div className="input-wrapper">
-            <label htmlFor="userName">Username</label>
+            <label htmlFor="userName">Username </label>
             <input
               type="text"
               id="userName"
@@ -66,7 +67,7 @@ const UserContent = () => {
             />
           </div>
           <div className="input-wrapper">
-            <label htmlFor="firstName">First Name</label>
+            <label htmlFor="firstName">First Name </label>
             <input
               type="text"
               id="firstName"
@@ -75,7 +76,7 @@ const UserContent = () => {
             />
           </div>
           <div className="input-wrapper">
-            <label htmlFor="lastName">Last Name</label>
+            <label htmlFor="lastName">Last Name </label>
             <input
               type="text"
               id="lastName"
