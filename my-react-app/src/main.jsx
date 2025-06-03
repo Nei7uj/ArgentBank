@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import App from './App.jsx';
-import { store } from './store.jsx';
+import { store } from './Store.jsx';
 import "./main.css";
 import "./pages/SignIn/sign-in.css";
 import "./components/Features/features.css";
