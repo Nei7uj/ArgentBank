@@ -1,5 +1,5 @@
 import React from 'react';
-import Feature from './Feature/Index.jsx';
+import Feature from './Feature.jsx';
 import iconChat from "/images/icon-chat.webp";
 import iconMoney from "/images/icon-money.webp";
 import iconSecurity from "/images/icon-security.webp";
